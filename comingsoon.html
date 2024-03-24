@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<style>
+    #blink {
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000;
+	transition: 0.5s;
+    }
+</style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RE9ERC2Q1L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RE9ERC2Q1L');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>artysever.com Coming Soon</title>
+    <style>
+body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+  
+
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .links {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id=blink>Artyserver.com on github is coming soon!</h1>
+
+        <script type="text/javascript">
+            var blink = document.getElementById('blink');
+            setInterval(function() {
+                blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+            }, 1500);
+        </script>
+
+
+
+        <img src="http://artyserver.com/media/images/work-in-progress.jpg" alt="Work in Progress">
+        <p>
+            <a href="http://artyserver.com/admin" class="links">Admin login</a>
+            <span> | </span>
+            <a href="http://artyserver.com/about" class="links">About</a>
+            <span> | </span>
+            <a href="http://artyserver.com/contact.html" class="links">Contact Us</a>
+
+        </p>
+    </div>
+</body>
+</html>
